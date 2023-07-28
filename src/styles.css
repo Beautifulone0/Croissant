@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+:root {
+  --navBodyBackground: hsl(180, 100%, 25%);
+  --textColor: hsl(16, 100%, 66%);
+  --fonts:'Playfair Display', serif;
+  --fontSize: 1em;
+}
+
+.nav-bg{
+ background-color: var(--navBodyBackground);
+}
+
+.fonts{
+  font-family: var(--fonts);
+  font-size: var(--fontSize);
+}
+.color{
+  color: var(--textColor);
+}
+.c-img {
+  height: 400px;
+}
+.bg{
+  background-color: var(--navBodyBackground);
+}
+.img-1{
+  border: 1px solid var(--textColor);
+}
+.bg2{
+  background-color: var(--textColor);
+}
+.img-2{
+  border: 1px solid var(--navBodyBackground);
+}
+.links a:hover {
+  text-decoration: underline !important;
+  color: var(--navBodyBackground);
+}
